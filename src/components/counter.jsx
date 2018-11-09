@@ -25,7 +25,7 @@ class Counter extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div style={{ margin: "10px" }}>
         <span className={this.renderClasses()}>{this.formatCount()}</span>
         <button
           onClick={() => {
@@ -35,7 +35,7 @@ class Counter extends Component {
         >
           Increment
         </button>
-      </React.Fragment>
+      </div>
     );
   }
 }
